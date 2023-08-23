@@ -1,0 +1,66 @@
+.app-form {
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 370px;
+    height: auto; /* Изменил высоту на auto, чтобы форма могла растягиваться */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+    margin-right: 150px;
+  }
+  
+  .app-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .app-form form {
+    display: flex;
+    flex-direction: column; /* Изменил grid на flex для вертикального выравнивания */
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .input-container {
+    width: 100%;
+    /* max-width: 350px; */
+  }
+  
+  .app-form input{
+    width: 330px;
+    height: 40px;
+    border: 1px solid #ccc;
+
+  }
+  .app-form button {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 93%;
+    margin-top: 10px;
+  }
+  
+  .app-form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .privacy-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+    /* width: 300px; */
+    padding: 5px;
+  }
+  
+  .input-text{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 12px;
+  }

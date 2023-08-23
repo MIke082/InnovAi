@@ -1,0 +1,192 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* Изменил на flex-direction: column */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cover-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(93, 93, 255, 0.5);
+  /* Синий прозрачный цвет */
+}
+
+
+
+
+.app-form {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 340px;
+  /* Ширина формы */
+  height: 600px;
+  /* Высота формы */
+  text-align: center;
+  /* Центрирование текста внутри формы */
+  border-radius: 10px;
+}
+
+.text-next-to-image {
+  position: absolute;
+  top: 50%;
+  left: 80px;
+  transform: translateY(-50%);
+  width: 300px;
+  text-align: left;
+}
+
+.text-next-to-image h1 {
+  width: 450px;
+  color: white;
+
+}
+
+.text-next-to-image p {
+  font-size: 18px;
+  width: 470px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Текстовая тень */
+  margin: 0;
+  /* Убираем внутренние отступы у параграфов */
+}
+
+
+.protection-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Центрируем содержимое по вертикали */
+  padding: 40px;
+  /* text-align: center;  */
+}
+
+
+
+/* .protection-section {
+  padding: 40px;
+} */
+
+.protection-row {
+  display: flex;
+  margin-bottom: 30px;
+
+}
+
+.protection-column {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  /* height: 130px; */
+  /* background-color: red; */
+
+}
+
+
+
+.flash-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрируем иконку по вертикали и горизонтали */
+  width: 50px; /* Устанавливаем ширину для иконки */
+  height: 50px; /* Устанавливаем высоту для иконки */
+  border-radius: 50%; /* Делаем иконку круглой */
+  background-color: rgba(93, 93, 255, 0.113); /* Задаем цвет фона для иконки */
+  color: white; /* Задаем цвет иконки */
+  margin-right: 10px;
+}
+
+h1,
+h3,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+.left-image {
+  max-width: 100%;
+}
+
+.protection-title {
+  text-align: center;
+}
+
+.protection-title h1 {
+  /* width: 400px; */
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.about-container p {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 20px;
+  /* Выравнивание по центру */
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрируем содержимое по горизонтали */
+  gap: 20px; /* Расстояние между блоками */
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.info-container h2{
+  width: 400px;
+  text-align: center;
+}
+
+.flash-icon-info {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрируем иконку по вертикали и горизонтали */
+  width: 50px; /* Устанавливаем ширину для иконки */
+  height: 50px; /* Устанавливаем высоту для иконки */
+  border-radius: 50%; /* Делаем иконку круглой */
+  background-color: rgba(93, 93, 255, 0.113); /* Задаем цвет фона для иконки */
+  color: white; /* Задаем цвет иконки */
+  margin: 0 auto;
+
+}
