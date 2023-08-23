@@ -88,7 +88,7 @@ const HomeScreen = () => {
             </div>
 
             <div className='info-container'>
-                
+
                 <div>
                     <TiFlashOutline className="flash-icon-info" size="40" color="rgba(93, 93, 255, 0.5)" />
                     <h2>Download app from Google Play or App Store.</h2>
@@ -98,7 +98,7 @@ const HomeScreen = () => {
                 <div>
                     <AiOutlineArrowRight className="arrow-icon" size="40" color="rgba(93, 93, 255, 0.5)" />
                 </div>
-                <div style={{marginTop: 40}}>
+                <div style={{ marginTop: 40 }}>
                     <TiFlashOutline className="flash-icon-info" size="40" color="rgba(93, 93, 255, 0.5)" />
                     <h2>Transfer funds into our secure account</h2>
                     <p>Funds are deposited in an escrow account until you receive confirmation that it's been received by seller/buyer on other end.</p>
@@ -115,6 +115,11 @@ const HomeScreen = () => {
                 </div>
 
             </div>
+            <div>
+                <h4>Learn more</h4>
+
+            </div>
+
         </>
     );
 };
